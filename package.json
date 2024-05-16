@@ -1,0 +1,23 @@
+{
+  "name": "landingpage.subadenivel.dev",
+  "version": "1.0.0",
+  "description": "teste 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CauaDutra/landingpage.subadenivel.dev.git"
+  },
+  "author": "caua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CauaDutra/landingpage.subadenivel.dev/issues"
+  },
+  "homepage": "https://github.com/CauaDutra/landingpage.subadenivel.dev#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
