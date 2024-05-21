@@ -20,6 +20,9 @@ jobs:
     - name: Install dependencies
       run: npm install
       
+    - name: Install gh-pages
+      run: npm install gh-pages
+      
     - name: Check permissions
       run: ls -l
       
