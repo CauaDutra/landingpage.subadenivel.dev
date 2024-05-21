@@ -20,6 +20,9 @@ jobs:
     - name: Install dependencies
       run: npm install
       
+    - name: Check permissions
+      run: ls -l
+      
     - name: Deploy
       run: npm run deploy
       env:
