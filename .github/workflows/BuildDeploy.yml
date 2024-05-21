@@ -25,6 +25,8 @@ jobs:
       
     - name: Check permissions
       run: ls -l
+    - name: Run with elevated permissions
+      run: sudo npm run deploy
       
     - name: Deploy
       run: npm run deploy
