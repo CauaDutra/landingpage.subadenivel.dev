@@ -19,15 +19,7 @@ jobs:
         
     - name: Install dependencies
       run: npm install
-      
-    - name: Install gh-pages
-      run: npm install gh-pages
-      
-    - name: Check permissions
-      run: ls -l
-    - name: Run with elevated permissions
-      run: sudo npm run deploy
-      
+
     - name: Deploy
       run: npm run deploy
       env:
